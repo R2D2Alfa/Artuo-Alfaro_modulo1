@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <form action="Actividad 10.php" method="POST">
+        <fieldset style="width: 400px;">
+            <legend>Solicitud de ingreso a la Univers9dad</legend>
+            <label>Nombre(s)
+                <input type="text" name="Nom" required>
+            </label>
+            <br>
+            <label>Apellido Paterno
+                <input type="text" name="ApP" required>
+            </label>
+            <br>
+            <label>Apellido Materno
+                <input type="text" name="ApM" required>
+            </label>
+            <br>
+            <label>Sexo
+                <select name="Hombre" required>
+                    <option value="H">Hombre</option>
+                    <option value="M">Mujer</option>
+                </select>
+            </label>
+            <br>
+            <label>Edad
+                <input name="Ed" type="number" max="100" min="16" required>
+            </label>
+            <br>
+            <label>Correo electrónico
+                <input name="Em" type="email" required>
+            </label>
+            <br>
+            <label>Teléfono
+                <input name="tel" type="number" maxlenght="10" required>
+            </label>
+            <br>
+            <label>Celular
+                <input name="cel" type="number" maxlength="10" required>
+            </label>
+            <br>
+            <label>Escuela de procedencia
+                <input name="EsP" type="text" required>
+            </label>
+            <br>
+            <label>Promedio
+                <input name="Pro" type="number" max="10.0" min="0.0" required>
+            </label>
+            <br>
+            <label>Primera opción
+                <input name="PrO" type="text" required>
+            </label>
+            <br>
+            <label>Segunda opción
+                <input name="SegP" type="text" required>
+            </label>
+            <br>
+            <input type="submit" name="Enviar" value="Enviar">
+            <input type="reset" name="Limpiar" value="Limpiar">
+        </fieldset>
+    </form>
+    
+</body>
+</html>
